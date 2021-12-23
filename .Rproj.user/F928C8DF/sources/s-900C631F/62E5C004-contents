@@ -1,0 +1,83 @@
+--- 
+title: "AIR DASHBOARD"
+date: "`r Sys.Date()`"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: fill
+---
+
+<style>
+
+body {
+  padding-top:0px
+}
+
+.navbar{
+  visibility: hidden
+}
+
+</style>
+
+## Row 1 {data-width=500}
+
+### 동북아시아(한국+중국) PM2.5 연평균 농도 
+<iframe
+    src="contents_of_frame5.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>
+
+### 동북아시아(한국+중국) PM2.5 연평균 농도  
+<iframe
+    src="contents_of_frame6.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>
+
+
+## Row 1 {data-width=500}
+
+### 동북아시아(한국+중국) PM2.5 연평균 농도
+<iframe
+    src="contents_of_frame7.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>
+
+
+
+### 8
+<iframe
+    src="contents_of_frame8.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>
+
+## Row 1 {data-width=500}
+
+### PM2.5 장기추세
+<iframe
+    src="contents_of_frame9.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>
+
+### PM2.5 장기추세
+<iframe
+    src="contents_of_frame10.html" 
+    frameborder="0"
+    style="overflow:hidden;height:100%;width:100%" 
+    height="100%" 
+    width="100%">
+</iframe>

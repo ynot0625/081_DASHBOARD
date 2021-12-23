@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1640084082588.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "62E5C004",
+    "lastKnownWriteTime" : 1640088647,
+    "last_content_update" : 1640088647519,
+    "path" : "C:/RWORK/081_DASHBOARD/MAIN_2.Rmd",
+    "project_path" : "MAIN_2.Rmd",
+    "properties" : {
+        "cursorPosition" : "80,18",
+        "scrollLine" : "56",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 8,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
