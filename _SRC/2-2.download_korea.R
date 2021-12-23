@@ -11,7 +11,7 @@ for (ix in 1:length(station_info$Sigungu)) {
   base_url <- "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getMsrstnAcctoRltmMesureDnsty?"
   station_url<-paste0("stationName=",URLencode(iconv(station_info$Sigungu[[ix]], from="cp949", to="UTF-8")))
   dataTerm_url<-paste0("dataTerm=","DAILY")
-  key_url<-paste0("ServiceKey=","")
+  key_url<-paste0("ServiceKey=","7%2BcmYYPfN0nquHA7MFjM8vKDj20qASdBcXlmY1Xmo2UkuK%2FHuxV1sm%2Fb2CHsi3lVR2FAoFrfcVSwQt%2BSLrPsPw%3D%3D")
   return_url <- paste0("returnType=","xml")
   page_url<-paste0("pageNo=",1)
   num_url<-paste0("numOfRows=",25)
